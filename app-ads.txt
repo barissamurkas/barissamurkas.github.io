@@ -131,3 +131,4 @@ video.unrulymedia.com, 657436911, RESELLER
 video.unrulymedia.com, 144138083, RESELLER
 risecodes.com, 68d54e2fe125150001dd91e2, RESELLER
 unity.com, 1191051, DIRECT, 96cabb5fbdde37a7
+vungle.com, 695d00260199fcad0553add9, DIRECT, c107d686becd2d77
