@@ -44,8 +44,32 @@
         .game-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
         .game-icon { width: 70px; height: 70px; border-radius: 15px; margin-bottom: 10px; object-fit: cover; }
         
-        .store-badge { height: 38px; width: auto; margin-top: 12px; transition: transform 0.2s ease; display: block; }
-        .store-badge:hover { transform: scale(1.05); }
+        .store-button {
+            display: inline-block;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            transition: background-color 0.2s, transform 0.2s;
+            margin-top: 12px;
+            border: 1px solid #333;
+            width: 80%;
+        }
+        .store-button:hover {
+            background-color: #3498db;
+            transform: scale(1.05);
+            color: #fff;
+        }
+        .store-button span {
+            display: block;
+            font-size: 9px;
+            font-weight: 400;
+            text-transform: uppercase;
+            opacity: 0.8;
+        }
         
         footer { margin-top: 50px; padding: 25px 0; font-size: 0.9em; color: #94a3b8; border-top: 1px solid #eee; text-align: center; }
 
@@ -60,16 +84,17 @@
 
     <div class="container">
         <header>
-    <img src="logo.png" alt="ArtSoft Logo" class="logo">
-    <div>
-        <h1>Barış Samurkaş</h1>
-        <p class="subtitle">Founder of ArtSoft | Unity Mobile Developer</p>
-        <p class="mini-bio">
-            <strong>10M+ Downloads</strong> | Creating high-quality mobile experiences since 2015. 
-            Aiming to spark imagination through global gaming.
-        </p>
-    </div>
-</header>
+            <img src="logo.png" alt="ArtSoft Logo" class="logo">
+            <div>
+                <h1>Barış Samurkaş</h1>
+                <p class="subtitle">Founder of ArtSoft | Unity Mobile Developer</p>
+                <p class="mini-bio">
+                    <strong>10M+ Downloads</strong> | Creating high-quality mobile experiences since 2015. 
+                    Aiming to spark imagination through global gaming.
+                </p>
+            </div>
+        </header>
+
         <section id="portfolio">
             <h2>Published Games</h2>
             <p>Developing high-quality mobile experiences with a focus on user engagement and innovation.</p>
@@ -80,7 +105,7 @@
                         <img src="fearzone_icon.jpeg" alt="Fear Zone" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Fear Zone</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
 
                 <div class="game-card">
@@ -88,7 +113,7 @@
                         <img src="nightmareofescape_icon.jpeg" alt="Nightmare of Escape" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Nightmare of Escape</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
 
                 <div class="game-card">
@@ -96,7 +121,7 @@
                         <img src="escapeofhorror_icon.jpeg" alt="Escape of Horror" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Escape of Horror</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
 
                 <div class="game-card">
@@ -104,7 +129,7 @@
                         <img src="balanceball_icon.jpeg" alt="Balance Ball" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Balance Ball</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
 
                 <div class="game-card">
@@ -112,7 +137,7 @@
                         <img src="rollingball_icon.jpeg" alt="Rolling Ball" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Rolling Ball</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
 
                 <div class="game-card">
@@ -120,7 +145,7 @@
                         <img src="balanceball2_icon.jpeg" alt="Balance Ball 2" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Balance Ball 2</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
 
                 <div class="game-card">
@@ -128,7 +153,7 @@
                         <img src="balance3d.jpeg" alt="Balance 3D" class="game-icon">
                         <h3 style="font-size: 0.9em; margin: 5px 0;">Balance 3D</h3>
                     </div>
-                    <a href="" target="_blank"><img src="Huawei-AppGallery.png" alt="Explore it on AppGallery" class="store-badge"></a>
+                    <a href="#" target="_blank" class="store-button"><span>Explore it on</span>AppGallery</a>
                 </div>
             </div>
         </section>
