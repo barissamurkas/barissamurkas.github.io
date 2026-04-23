@@ -261,6 +261,11 @@ appnexus.com, 11826, RESELLER, f5ab79cb980f11d1
 conversantmedia.com, 41024, RESELLER, 03113cd04947736d
 appads.in, 106246, RESELLER
 prado.co, 14260, RESELLER
+media.net, 8CUH46N56, RESELLER
+programmaticx.ai, 84448, RESELLER, b42d42eb28400efa
+targetbetter.com, 82228, RESELLER
+triplelift.com, 14716, RESELLER, 6c33edb13117fd86
+zmaticoo.com, 5135195, RESELLER
 inmobi.com, 60ca746f64334cbf85022709e1eeb4bd, DIRECT, 83e75a7ae333ca9d
 mintegral.com, 10003, RESELLER
 thunder-monetize.com, 3905806597, RESELLER
