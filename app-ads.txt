@@ -255,6 +255,12 @@ smaato.com, 1100059563, RESELLER, 07bcf65f187117b4
 taurusx.com, 70079, RESELLER
 triplelift.com, 95054, RESELLER, 6c33edb13117fd86
 xandr.com, 17779, RESELLER
+adform.com, 3400, RESELLER, 9f5210a2f0999e32
+brightcom.com, 23120, RESELLER
+ogury.com, 065d4ff5-a269-44be-9634-9d4d7af2dfc3, RESELLER
+onlinemediasolutions.com, 23120, RESELLER, b3868b187e4b6402
+pubmatic.com, 163117, RESELLER, 5d62403b186f2ace
+smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3
 inmobi.com, 60ca746f64334cbf85022709e1eeb4bd, DIRECT, 83e75a7ae333ca9d
 mintegral.com, 10003, RESELLER
 thunder-monetize.com, 3905806597, RESELLER
